@@ -1,6 +1,8 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
 
+// API IMPORT IS CREATED - BUILD IN APPLICATION (NODE.JS APPLICATION ETC...)
+
 type Data = {
   name: string
 }
