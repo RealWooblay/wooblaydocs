@@ -23,7 +23,7 @@ const index: React.FC = () => {
                     <ul className='hidden lg:flex '>
                         <Link href='/'>
                             <li className='ml-8 hover:border-b text-xl hover:text-cyan-600'>
-                                Career
+                                FAQ
                             </li>
                         </Link>
                         <Link href='/whitepaper'>
