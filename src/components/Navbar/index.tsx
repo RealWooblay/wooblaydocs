@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Logo from 'public\\racoonplacehgolder.png'
+import Logo from 'public/racoonplacehgolder.png'
 import Link from 'next/link';
 import { AiOutlineMenu, AiOutlineClose, AiOutlineTwitter, AiOutlineGithub } from 'react-icons/ai';
 import { FaDiscord } from 'react-icons/fa';
@@ -16,7 +16,7 @@ const index: React.FC = () => {
     }
 
     return (
-        <nav className="fixed w-full h-24 shadow-xl bg-transparent text-white z-50">
+        <nav className="absolute w-full h-24 shadow-xl bg-transparent text-white z-50">
             <div className='flex justify-between items-center h-full w-full px-4 2xl:px-16'>
 
                 <div className='z-10 hidden lg:flex'>
@@ -69,7 +69,7 @@ const index: React.FC = () => {
             </div>
             <div className={
                 menuOpen
-                    ? "fixed left-0 top-0 w-[65%] lg:hidden h-screen bg-[#ecf0f3] p-10 ease-in duration-500 z-20"
+                    ? "fixed left-0 top-0 w-[65%] lg:hidden h-screen bg-[#301934] p-10 ease-in duration-500 z-50"
                     : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
             }
             >
@@ -109,16 +109,18 @@ const index: React.FC = () => {
                     <AiOutlineGithub size={30} className='cursor-pointer' />
                     <AiOutlineTwitter size={30} className='cursor-pointer' />
                 </div>
-                <Link href='/'>
-                    <Image
-                        src={Logo}
-                        alt='Logo'
-                        width='65'
-                        height='75'
-                        className='cursor-pointer pt-12 mx-auto'
-                        priority
-                    />
-                </Link>
+                <div>
+                    <Link href='/'>
+                        <Image
+                            src={Logo}
+                            alt='Logo'
+                            width='65'
+                            height='75'
+                            className='cursor-pointer pt-12 mx-auto'
+                            priority
+                        />
+                    </Link>
+                </div>
             </div>
         </nav>
     );

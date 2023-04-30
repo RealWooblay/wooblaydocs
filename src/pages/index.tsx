@@ -1,4 +1,3 @@
-import Navbar from '@/components/Navbar'
 import Opener from '@/components/Overview/Opener'
 import ProjectIntro from '@/components/Overview/ProjectIntro'
 import { Inter } from 'next/font/google'
@@ -10,12 +9,11 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <div className="snap-y snap-mandatory h-screen w-screen overflow-auto">
-        <section className="snap-center ">
+      <div className="snap-x snap-mandatory h-screen w-screen overflow-auto flex flex-row">
+        <section className="snap-center flex-shrink-0 h-full w-screen">
           <Opener />
         </section>
-        <section className="snap-center">
+        <section className="snap-center flex-shrink-0 h-full w-screen">
           <ProjectIntro />
         </section>
       </div>
