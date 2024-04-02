@@ -1,9 +1,12 @@
 import Opener from '@/components/Overview/Opener'
 import ProjectIntro from '@/components/Overview/ProjectIntro'
-import Socialise from '@/components/Overview/Community'
+import Monetise from '@/components/Overview/Monetise'
 import { Inter } from 'next/font/google'
-import BountiesandTesting from '@/components/Overview/BountiesTesting'
-import Courses from '@/components/Overview/Courses'
+import Community from '@/components/Overview/Community'
+import PM from '@/components/Overview/PM'
+import Faq from '@/components/Faq'
+import Team from '@/components/Team'
+import Involve from '@/components/Involve'
 
 // HOME PAGE AT LOCALHOST 3000
 
@@ -20,13 +23,22 @@ export default function Home() {
           <ProjectIntro />
         </section>
         <section className="snap-center">
-          <Socialise />
+          <Monetise />
         </section>
         <section className="snap-center">
-          <Courses />
+          <PM />
         </section>
         <section className="snap-center">
-          <BountiesandTesting />
+          <Community />
+        </section>
+        <section className="snap-center">
+          <Involve />
+        </section>
+        <section className="snap-center">
+          <Team />
+        </section>
+        <section className="snap-center">
+          <Faq />
         </section>
       </div>
     </>

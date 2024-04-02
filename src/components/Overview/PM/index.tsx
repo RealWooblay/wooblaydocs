@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Meteors from 'public\\SectionImages\\BackgroundMeteors.png'
-import Courses from 'public\\SectionImages\\Courses.png'
+import Meteors from '../../../../public/SectionImages/BackgroundMeteors.png'
+import Courses from '../../../../public/SectionImages/Courses.png'
 
 const index: React.FC = () => {
 
@@ -21,17 +21,17 @@ const index: React.FC = () => {
 
             <div className='w-2/3 pt-40 md:pl-24 z-10'>
                 <p className='text-blue-500 font-bold pb-11'>innovate collaborate, revolutionise</p>
-                <h1 className='font-bold md:text-5xl'>Knowledge</h1>
+                <h1 className='font-bold md:text-5xl'>Project Development</h1>
                 <p className='pt-10 text-xl pr-20'>
                     Take our web3 focused courses to learn about the world of the future and the opportunities we have now to make it be built right. Learn to code by doing our fictional projects that will be real world applicable with online walkthroughs and explanations. Navigate our supplied resources to take the right courses and obtain true knowledge, all to guide you to be able to craft components and code your dreams to life.
                     <br />
                     <br />
-                    <p className='font-extralight'>Find out more at out <Link href='/' className='underline hover:text-blue-500'>Whitepaper</Link></p>
+                    <p className='font-extralight'>Get involved <Link href='/' className='underline hover:text-blue-500'>here</Link></p>
                     <p className='font-extralight'>Didnt understand concepts? <Link href='/FAQ' className='underline hover:text-blue-500'>FAQ</Link></p>
                 </p>
             </div>
 
-            <div className='w-1/3 flex justify-center pt-40 pb-40'>
+            <div className='w-1/3 flex justify-center pt-40 pb-40 pr-10'>
                 <Image
                     src={Courses}
                     alt='CoursesImage'

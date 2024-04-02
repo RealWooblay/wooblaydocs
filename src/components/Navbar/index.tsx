@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Logo from 'public/racoonplacehgolder.png'
+import Logo from '../../../public/racoonplacehgolder.png'
 import Link from 'next/link';
 import { AiOutlineMenu, AiOutlineClose, AiOutlineTwitter, AiOutlineGithub } from 'react-icons/ai';
 import { FaDiscord } from 'react-icons/fa';
@@ -21,24 +21,19 @@ const index: React.FC = () => {
 
                 <div className='z-10 hidden lg:flex'>
                     <ul className='hidden lg:flex '>
+                        <Link href='/faq'>
+                            <li className='ml-8 hover:border-b text-xl hover:text-cyan-600'>
+                                Get involved
+                            </li>
+                        </Link>
+                        <Link href='/'>
+                            <li className='ml-8 hover:border-b text-xl hover:text-cyan-600'>
+                                Team
+                            </li>
+                        </Link>
                         <Link href='/'>
                             <li className='ml-8 hover:border-b text-xl hover:text-cyan-600'>
                                 FAQ
-                            </li>
-                        </Link>
-                        <Link href='/whitepaper'>
-                            <li className='ml-8 hover:border-b text-xl hover:text-cyan-600'>
-                                Whitepaper
-                            </li>
-                        </Link>
-                        <Link href='/'>
-                            <li className='ml-8 hover:border-b text-xl hover:text-cyan-600'>
-                                Backstory
-                            </li>
-                        </Link>
-                        <Link href='/'>
-                            <li className='ml-8 hover:border-b text-xl hover:text-cyan-600'>
-                                Overview
                             </li>
                         </Link>
                     </ul>
@@ -58,8 +53,8 @@ const index: React.FC = () => {
                 </div>
 
                 <div className='z-10 hidden lg:flex'>
+                    <a href="#" className="pt-2 pb-2 pl-4 pr-4 bg-purple-500 text-white rounded-full hover:bg-purple-600">Join waitlist</a>
                     <FaDiscord size={35} className='cursor-pointer ml-10 hover:text-cyan-600' />
-                    <AiOutlineGithub size={35} className='cursor-pointer ml-10 hover:text-cyan-600' />
                     <AiOutlineTwitter size={35} className='cursor-pointer ml-10 hover:text-cyan-600' />
                 </div>
 
@@ -82,31 +77,26 @@ const index: React.FC = () => {
 
                 <div className='z-10 flex-col py-4'>
                     <ul>
-                        <Link href='/career'>
-                            <li className='py-4 cursor-pointer text-xl'>
-                                Career
-                            </li>
-                        </Link>
                         <Link href='/whitepaper'>
                             <li className='py-4 cursor-pointer text-xl'>
-                                Whitepaper
+                                Get involved
                             </li>
                         </Link>
                         <Link href='/backstory'>
                             <li className='py-4 cursor-pointer text-xl'>
-                                Backstory
+                                Team
                             </li>
                         </Link>
                         <Link href='/'>
                             <li className='py-4 cursor-pointer text-xl'>
-                                Overview
+                                FAQ
                             </li>
                         </Link>
                     </ul>
                 </div>
                 <div className='z-10 flex flex-row justify-around pt-10 items-center'>
+                    <a href="#" className="p-3 bg-purple-500 text-white rounded-full hover:bg-purple-600">Join waitlist</a>
                     <FaDiscord size={30} className='cursor-pointer' />
-                    <AiOutlineGithub size={30} className='cursor-pointer' />
                     <AiOutlineTwitter size={30} className='cursor-pointer' />
                 </div>
                 <div>
