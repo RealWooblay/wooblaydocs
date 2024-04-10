@@ -7,7 +7,7 @@ import Courses from '../../../../public/SectionImages/Courses.png'
 const index: React.FC = () => {
 
     return (
-        <div className='relative h-screen text-white bg-gradient-to-b from-blue-950 from-15% to-green-950 flex gap-4 pt-20'>
+        <div className='relative h-screen text-white bg-gradient-to-b from-purple-950 from-15% to-green-950 flex gap-4 pt-20'>
 
             <Image
                 src={Meteors}
@@ -23,11 +23,18 @@ const index: React.FC = () => {
                 <p className='text-blue-500 font-bold pb-11'>innovate collaborate, revolutionise</p>
                 <h1 className='font-bold md:text-5xl'>Project Development</h1>
                 <p className='pt-10 text-xl pr-20'>
-                    Take our web3 focused courses to learn about the world of the future and the opportunities we have now to make it be built right. Learn to code by doing our fictional projects that will be real world applicable with online walkthroughs and explanations. Navigate our supplied resources to take the right courses and obtain true knowledge, all to guide you to be able to craft components and code your dreams to life.
+                    A DAO can't function without effective cooperation, to support this, we provide project management tools to allow contributors to
+                    be aware of project development and communicate with team members. In the future, we will leverage AI to enhance collaboration through quality control and mentorship,
+                    and we will implement collaborative development tools such as simulated modelling envrionments for engineering and algorithms.
                     <br />
                     <br />
-                    <p className='font-extralight'>Get involved <Link href='/' className='underline hover:text-blue-500'>here</Link></p>
-                    <p className='font-extralight'>Didnt understand concepts? <Link href='/FAQ' className='underline hover:text-blue-500'>FAQ</Link></p>
+                    <ul className='indent-8'>
+                        <li>→ Team chat</li>
+                        <li>→ Organised voting system</li>
+                        <li>→ Project updates, alerts and milestone tracker</li>
+                        <li>→ Proof of work space to measure activity among contributors</li>
+                        <li>→ Personalised Dashboard displaying project performance, analytics and information</li>
+                    </ul>
                 </p>
             </div>
 

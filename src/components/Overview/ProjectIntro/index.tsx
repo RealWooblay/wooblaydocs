@@ -22,18 +22,19 @@ const index: React.FC = () => {
                 <p className='text-blue-500 font-bold pb-11'>innovate collaborate, revolutionise</p>
                 <h1 className='font-bold text-5xl'>DAOs & Projects</h1>
                 <p className='pt-10 text-lg'>
-                    The <span className='text-red-500 font-bold'>mission</span> is to enable innovation and collaboration, through building projects to revolutionise.
+                    The <span className='underline underline-offset-4'><a href=''>mission</a></span> is to enable innovation and collaboration, through building projects to revolutionise.
                     We developed a platform that brings together a community of innovators to create projects that fast-track evolution in the right direction.
+                    Allowing passionate people to find their outlets and not waste their time.
                     <br />
                     <br />
-                    By leveraging DAOs we create an ecosystem that provides:
+                    By leveraging <span className='underline underline-offset-4'><a href=''>DAOs</a></span> we create an ecosystem that provides:
                     <br />
-                    <ul className='list-disc'>
-                        <li>Decentralised ownership</li>
-                        <li>Voting systems giving all contributors a say in decisions</li>
-                        <li>Transparency of all transactions and operations occuring</li>
-                        <li>Find a network of people to contribute to projects</li>
-                        <li>Stake represented digitally to be completely owned by you</li>
+                    <ul className='indent-8'>
+                        <li>→ Decentralised ownership</li>
+                        <li>→ Voting systems giving all contributors a say in decisions</li>
+                        <li>→ Transparency of all transactions and operations occuring</li>
+                        <li>→ Find a network of people to contribute to projects</li>
+                        <li>→ Stake represented digitally to be completely owned by you</li>
                     </ul>
                 </p>
             </div>

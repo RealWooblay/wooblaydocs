@@ -28,7 +28,7 @@ const index: React.FC = () => {
                         </Link>
                         <Link href='/'>
                             <li className='ml-8 hover:border-b text-xl hover:text-cyan-600'>
-                                Team
+                                Why
                             </li>
                         </Link>
                         <Link href='/'>
@@ -53,7 +53,7 @@ const index: React.FC = () => {
                 </div>
 
                 <div className='z-10 hidden lg:flex'>
-                    <a href="#" className="pt-2 pb-2 pl-4 pr-4 bg-purple-500 text-white rounded-full hover:bg-purple-600">Join waitlist</a>
+                    <a href="#" className="pt-2 pb-2 pl-4 pr-4 text-white rounded-full bg-blue-500 hover:bg-blue-600">Join waitlist</a>
                     <FaDiscord size={35} className='cursor-pointer ml-10 hover:text-cyan-600' />
                     <AiOutlineTwitter size={35} className='cursor-pointer ml-10 hover:text-cyan-600' />
                 </div>
@@ -84,7 +84,7 @@ const index: React.FC = () => {
                         </Link>
                         <Link href='/backstory'>
                             <li className='py-4 cursor-pointer text-xl'>
-                                Team
+                                Why
                             </li>
                         </Link>
                         <Link href='/'>
@@ -95,7 +95,7 @@ const index: React.FC = () => {
                     </ul>
                 </div>
                 <div className='z-10 flex flex-row justify-around pt-10 items-center'>
-                    <a href="#" className="p-3 bg-purple-500 text-white rounded-full hover:bg-purple-600">Join waitlist</a>
+                    <a href="#" className="p-3 text-white rounded-full bg-blue-500 hover:bg-blue-600">Join waitlist</a>
                     <FaDiscord size={30} className='cursor-pointer' />
                     <AiOutlineTwitter size={30} className='cursor-pointer' />
                 </div>

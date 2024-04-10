@@ -23,15 +23,17 @@ const index: React.FC = () => {
                 <p className='text-blue-500 font-bold pb-11'>innovate collaborate, revolutionise</p>
                 <h1 className='font-bold text-5xl'>Community</h1>
                 <p className='pt-10 text-xl pr-20'>
-                    Help businesses level up their operations by offering your homemade software tools, solve issues in code or sell your knowledge and components to earn easy money utilising your talents in technology. At Nocturnal you can sell your creations from tools to components or put a bounty on an issue you cant solve or a component you need. How easy is that!
+                    A DAO can't function without a solid community, on the platform you can meet people to build and innovate with or discuss and brainstorm topics and ideas.
                     <br />
                     <br />
-                    Test out upcoming or finished projects and be paid to do it. Simple as that!
-                    <br />
-                    <br />
-                    <p className='font-extralight'>Get involved <Link href='/' className='underline hover:text-blue-500'>here</Link></p>
-                    <p className='font-extralight'>Didnt understand concepts? <Link href='/FAQ' className='underline hover:text-blue-500'>FAQ</Link></p>
-
+                    <ul className='indent-8'>
+                        <li>→ Purchase innovative solutions off the marketplace</li>
+                        <li>→ Discuss ideas & topics to expand</li>
+                        <li>→ </li>
+                        <li>→ Private token that increases in value proportional to project success</li>
+                        <li>→ Profits shared via <span className='underline underline-offset-4'><a href='https://www.ibm.com/topics/smart-contracts#:~:text=Smart%20contracts%20are%20typically%20used,when%20predetermined%20conditions%20are%20met.'>
+                            smart contracts </a></span> among contributors to DAOs</li>
+                    </ul>
                 </p>
             </div>
 

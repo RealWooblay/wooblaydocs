@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineGithub, AiOutlineTwitter } from 'react-icons/ai';
+import { AiOutlineTwitter } from 'react-icons/ai';
 import { FaDiscord } from 'react-icons/fa';
 
 
@@ -20,10 +20,15 @@ const Index: React.FC = () => {
                         </form>
                     </div>
                     <div>
-                        {/* Upcoming Event Card */}
-                        <div className='bg-gray-800 p-4 rounded-lg mt-6'>
-                            <h2 className='text-xl font-bold mb-2'>Upcoming Event</h2>
-                            <p className='text-gray-300'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor justo et eros lacinia, vitae luctus nulla fermentum.</p>
+                        <div className='bg-gray-800 p-4 pb-10 rounded-lg mt-6 flex items-center shadow-md shadow-black'>
+                            <div className='flex-1'>
+                                <h2 className='text-xl font-bold mb-2'>Upcoming Event</h2>
+                                <p className='text-gray-300'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor justo et eros lacinia, vitae luctus nulla fermentum.</p>
+                                <br></br>
+                                <br></br>
+                                <a href="#" className="p-3 text-white rounded-full bg-transparent outline hover:bg-blue-600">Reserve your spot</a>
+                            </div>
+                            <img src='https://media.istockphoto.com/id/974238866/photo/audience-listens-to-the-lecturer-at-the-conference.jpg?s=612x612&w=0&k=20&c=p_BQCJWRQQtZYnQlOtZMzTjeB_csic8OofTCAKLwT0M=' alt='Event Image' className='w-1/2 h-auto ml-4' />
                         </div>
                         <div className='flex gap-4 pt-5'>
                             {/* Add your social media icons and links here */}

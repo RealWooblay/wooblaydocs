@@ -23,14 +23,14 @@ export default function Home() {
           <ProjectIntro />
         </section>
         <section className="snap-center">
-          <Monetise />
-        </section>
-        <section className="snap-center">
           <PM />
         </section>
         <section className="snap-center">
-          <Community />
+          <Monetise />
         </section>
+        {/* <section className="snap-center">
+          <Community />
+  </section> */}
         <section className="snap-center">
           <Involve />
         </section>
